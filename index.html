@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Birthday Message</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="card">
+
+        <!-- MESSAGE FORM -->
+        <div id="messageForm">
+
+            <h1>🎂 Happy 1st Birthday & Christening!</h1>
+
+            <h2 id="celebrantName">BLAZE VILLANUEVA</h2>
+
+            <p>Leave a special message for the birthday celebrant.</p>
+
+            <input
+                type="text"
+                id="guestName"
+                placeholder="Your Name"
+            >
+
+            <textarea
+                id="message"
+                placeholder="Write your birthday message..."
+            ></textarea>
+
+            <button onclick="sendMessage()">
+                💌 Send Message
+            </button>
+
+            <p id="status"></p>
+
+        </div>
+
+
+        <!-- THANK YOU -->
+        <div id="thankYou" class="hidden">
+
+            <h1>💖 Thank You!</h1>
+
+            <h2>Your message was sent!</h2>
+
+            <p>
+                Thank you for making this birthday special. 🎉
+            </p>
+
+            <p>
+                Have a wonderful day! 🎂
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
